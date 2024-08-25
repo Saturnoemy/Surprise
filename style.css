@@ -15,3 +15,28 @@ section{
     justify-content: center;
 
 }
+    /* Estilos para centralizar o conteúdo */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    /* Estilos para o cabeçalho */
+    header {
+        text-align: center;
+        font-size: 24px;
+        background-color: #010101;
+        padding: 10px;
+    }
+    /* Estilos para o restante do conteúdo */
+    section {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #050505;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
